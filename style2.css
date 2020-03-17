@@ -1,0 +1,204 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+
+}
+.logo-container{
+  margin-top: 15px;
+  margin-left: 5px;
+  flex: 1;
+  color: white;
+  font-size: 10px;
+}
+.nav-links{
+
+  display: flex;
+  padding: 10px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+span{
+  color: #f5bb00;
+}
+.nav-links a:hover{
+
+  background-color: dimgray;
+}
+.second{
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+}
+.sec-im img{
+  height: 40vh;
+  flex:1;
+}
+.second-text{
+flex:1;
+text-align: center;
+}
+.second-text p{
+  line-height: 30px;
+  word-spacing: 5px;
+  text-align: left;
+  margin-left: 100px;
+}
+.second-text h2{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+.third{
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+.thi-im img{
+  height: 55vh;
+  flex:1;
+}
+.third-text{
+  flex:1;
+  text-align: center;
+}
+.third-text p{
+  line-height: 35px;
+  word-spacing: 5px;
+  text-align: left;
+  margin-left: 100px;
+}
+.third-text h2{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+.fourth{
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+.fou-im img{
+  height: 42vh;
+  flex:1;
+}
+.fourth-text{
+  flex:1;
+  text-align: center;
+}
+.fourth-text p{
+  line-height: 35px;
+  word-spacing: 5px;
+  text-align: left;
+  margin-left: 100px;
+}
+.fourth-text h2{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+.fifth{
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+}
+.fiv-im img{
+  height: 42vh;
+  flex:1;
+}
+.fifth-text{
+flex:1;
+text-align: center;
+}
+.fifth-text p{
+  line-height: 30px;
+  word-spacing: 5px;
+  text-align: left;
+  margin-left: 100px;
+}
+.fifth-text h2{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 3px;
+}
+footer{
+
+
+  display: flex;
+  height: 40vh;
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+}
+.foot{
+
+  display: block;
+
+  padding: 10px;
+  line-height: 40px;
+
+}
+.foot-links{
+  list-style: none;
+}
+.cat{
+  margin-left: 200px;
+  left: 30px;
+
+  padding: 10px;
+  line-height: 40px;
+  flex: 1;
+}
+.cat-links{
+  list-style: none;
+}
+.cat-links a{
+  text-decoration: none;
+  color: black;
+}
+.foot-links a{
+  text-decoration: none;
+  color: black;
+}
+.quotes-p{
+  margin-top: 100px;
+  margin-right: 200px;
+
+}
+.quotes-p p{
+  font-size: 20px;
+}
+.foot-links a:hover{
+
+  font-size:20px;
+}
+.cat-links a:hover{
+font-size:20px;
+}

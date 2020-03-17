@@ -1,0 +1,184 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+
+}
+.logo-container{
+  margin-top: 15px;
+  margin-left: 5px;
+  flex: 1;
+  color: white;
+  font-size: 10px;
+}
+.nav-links{
+
+  display: flex;
+  padding: 10px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+span{
+  color: #f5bb00;
+}
+.nav-links a:hover{
+
+  background-color: dimgray;
+}
+.first{
+  display:flex;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+
+}
+.fir-im{
+  flex: 1;
+}
+.fir-im img{
+  height: 60vh;
+
+}
+.first-text{
+  flex: 1;
+  text-align: center;
+}
+.second{
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+}
+.sec-im img{
+  height: 60vh;
+  flex:1;
+}
+.second-text{
+flex:1;
+text-align: center;
+}
+
+.third{
+  display:flex;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+
+}
+.thi-im{
+  flex: 1;
+}
+.thi-im img{
+  height: 60vh;
+
+}
+.third-text{
+  flex: 1;
+  text-align: center;
+}
+.card{
+  background-color: white;
+
+
+
+
+}
+
+.card-box{
+
+  display:flex;
+  padding:40px;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+
+}
+.vide{
+
+  flex: 1;
+}
+.vide-text{
+flex:1;
+text-align: center;
+}
+.vide video{
+  height: 50vh;
+}
+.vide-text p{
+  text-align: center;
+}
+footer{
+
+
+  display: flex;
+  height: 40vh;
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+}
+.foot{
+
+  display: block;
+
+  padding: 10px;
+  line-height: 40px;
+
+}
+.foot-links{
+  list-style: none;
+}
+.cat{
+  margin-left: 200px;
+  left: 30px;
+
+  padding: 10px;
+  line-height: 40px;
+  flex: 1;
+}
+.cat-links{
+  list-style: none;
+}
+.cat-links a{
+  text-decoration: none;
+  color: black;
+}
+.foot-links a{
+  text-decoration: none;
+  color: black;
+}
+.quotes-p{
+  margin-top: 100px;
+  margin-right: 200px;
+
+}
+.quotes-p p{
+  font-size: 20px;
+}
+.foot-links a:hover{
+
+  font-size:20px;
+}
+.cat-links a:hover{
+font-size:20px;
+}
