@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Python</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <h2><span>Z</span>ero <span>W</span>atts</h2>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-links">
+            <a href="index.html"><span>H</span>ome</a>
+          </li>
+          <li class="nav-links">
+            <a href="tutorial.html"><span>T</span>utorials</a>
+          </li>
+          <li class="nav-links">
+            <a href="https://ide.codingblocks.com/" target="_blank"><span>P</span>ractice</a>
+          </li>
+          <li class="nav-links">
+            <a href="placement.html"><span>P</span>lacement<span>H</span>elper</a>
+          </li>
+          <li class="nav-links">
+            <a href="about.html"><span>A</span>bout</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="python">
+        <div class="vide">
+          <video controls >
+               <source src="web.mp4" type="video/mp4">
+           </video>
+           <div class="comments">
+            <div class="comments-h2">
+              <h2><span>C</span>omments</h2>
+            </div>
+
+             <div class="comments-email">
+               <lable><span>E</span>mail</lable>
+               <input type="email" name="email" placeholder="some@gmail.com" id="email" required><br>
+               <br>
+                <lable class="text"><span>Q</span>ueries</lable>
+                <textarea name="queries" rows="8" cols="80" id="text"></textarea><br><br>
+                <button onclick="MyDisplay()"><span>P</span>ost</button>
+                <p id="post"></p>
+              </div>
+
+           </div>
+
+         </div>
+         <div class="catalog">
+           <h1><span>C</span>atalog</h1>
+           <ul class="ca-links">
+             <li class="ca-links">
+               <a href="intro.html"><span>I</span>ntoduction</a>
+             </li>
+             <li class="ca-links">
+               <a href="AI.html"><span>B</span>sic <span>D</span>ata Type</a>
+             </li>
+             <li class="ca-links">
+               <a href="aurdino.html"><span>v</span>ariables</a>
+             </li>
+             <li class="ca-links">
+               <a href="webdev.html"><span>L</span>oops<span></a>
+             </li>
+             <li class="ca-links">
+               <a href="TT.html"><span>I</span>terators</a>
+             </li>
+             <li class="ca-links">
+               <a href="python.html"><span>I</span>ntoduction</a>
+             </li>
+             <li class="ca-links">
+               <a href="AI.html"><span>B</span>sic <span>D</span>ata Type</a>
+             </li>
+             <li class="ca-links">
+               <a href="aurdino.html"><span>v</span>ariables</a>
+             </li>
+             <li class="ca-links">
+               <a href="webdev.html"><span>L</span>oops<span></a>
+             </li>
+             <li class="ca-links">
+               <a href="TT.html"><span>I</span>terators</a>
+             </li>
+             <li class="ca-links">
+               <a href="python.html"><span>I</span>ntoduction</a>
+             </li>
+             <li class="ca-links">
+               <a href="AI.html"><span>B</span>sic <span>D</span>ata Type</a>
+             </li>
+             <li class="ca-links">
+               <a href="aurdino.html"><span>v</span>ariables</a>
+             </li>
+
+           </ul>
+         </div>
+      </div>
+
+    </main>
+    <script type="text/javascript">
+
+    var list = document.querySelectorAll("li.c-links");
+    var length = list.length;
+    for(var i = 0; i < length; i++){
+      list[i].onclick = function(){
+        document.getAttribute("video").innerHTML = "hi";
+      }
+    }
+
+    </script>
+  </body>
+</html>
