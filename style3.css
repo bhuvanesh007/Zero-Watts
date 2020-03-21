@@ -1,0 +1,197 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+header{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+
+}
+.logo-container{
+  margin-top: 15px;
+  margin-left: 5px;
+  flex: 1;
+  color: white;
+  font-size: 10px;
+}
+.nav-links{
+
+  display: flex;
+  padding: 10px;
+}
+.nav-links a{
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+span{
+  color: #f5bb00;
+}
+.nav-links a:hover{
+
+  background-color: dimgray;
+}
+.python{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+.vide{
+  text-align: center;
+  position: static;
+  flex: 1;
+  margin-left: 10px;
+  margin-top: 60px;
+
+}
+.vide video{
+  border-radius: 10px;
+  height: 75vh;
+  width: 1000px;
+  background-color: dimgray;
+
+}
+.vide h3{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.catalog{
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 20px;
+
+  border-radius: 10px;
+  background-color: white
+  height: 110vh;
+  width: 50vh;
+  display: block;
+
+
+
+}
+.c-links{
+  list-style: none;
+  background-color: white;
+
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 1px;
+  line-height: 50px;
+  cursor:pointer;
+  letter-spacing: 3px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.c-links:hover{
+  font-size: 15px;
+  transform: translate(-0%,0%);
+  box-shadow: 10px 10px 10px 5px #DCDCDC;
+  text-align: center;
+  border-left:solid;
+  border-right: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.catalog h1{
+  color: black;
+  line-height: 100px;
+  margin-left: 10px;
+}
+input{
+
+  width: 500px;
+  height: 5vh;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+.comments{
+
+  display: block;
+}
+.text{
+  align-items: center;
+}
+
+textarea{
+  margin-left: 5px;
+  border-radius: 10px;
+}
+.comments-textarea{
+  display: flex;
+  margin-top: 10px;
+
+}
+.comments-textarea lable{
+  margin-top: 50px;
+
+}
+button{
+  flex:1;
+  width: 100px;
+  height: 30px;
+}
+footer{
+
+
+  display: flex;
+  height: 40vh;
+  opacity: 1;
+  width: 100%;
+  margin: auto;
+}
+.foot{
+
+  display: block;
+
+  padding: 10px;
+  line-height: 40px;
+
+}
+.foot-links{
+  list-style: none;
+}
+.cat{
+  margin-left: 200px;
+  left: 30px;
+
+  padding: 10px;
+  line-height: 40px;
+  flex: 1;
+}
+.cat-links{
+  list-style: none;
+}
+.cat-links a{
+  text-decoration: none;
+  color: black;
+}
+.foot-links a{
+  text-decoration: none;
+  color: black;
+}
+.quotes-p{
+  margin-top: 100px;
+  margin-right: 200px;
+
+}
+.quotes-p p{
+  font-size: 20px;
+}
+.foot-links a:hover{
+
+  font-size:20px;
+}
+.cat-links a:hover{
+font-size:20px;
+}
